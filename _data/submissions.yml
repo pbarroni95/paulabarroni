@@ -1,0 +1,12 @@
+papers:
+  - title: "Example Paper Title"
+    authors: "Author One, Author Two"
+    pdf: ""
+
+concurrent:
+  - title: "Example Concurrent Paper Title"
+    authors: "Author One, Author Two"
+    pdf: ""
+
+individuals:
+  - name: "Individual Name"

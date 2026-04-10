@@ -1,0 +1,185 @@
+<!-- Accepted Submissions Section -->
+<section id="submissions">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Accepted Submissions</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <ul class="nav nav-tabs submissions-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#tab-papers" aria-controls="tab-papers" role="tab" data-toggle="tab">Papers</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab-concurrent" aria-controls="tab-concurrent" role="tab" data-toggle="tab">Concurrent Submissions</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab-individuals" aria-controls="tab-individuals" role="tab" data-toggle="tab">Participants</a>
+                    </li>
+                </ul>
+                <div class="tab-content submissions-tab-content">
+
+                    <!-- Papers Tab -->
+                    <div role="tabpanel" class="tab-pane active" id="tab-papers">
+                        {% if site.data.submissions.papers and site.data.submissions.papers.size > 0 %}
+                        <ul class="submissions-list">
+                            {% for paper in site.data.submissions.papers %}
+                            <li class="submission-item">
+                                <span class="submission-title">
+                                    {% if paper.pdf and paper.pdf != "" %}
+                                    <a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+                                    {% else %}
+                                    {{ paper.title }}
+                                    {% endif %}
+                                </span>
+                                {% if paper.authors and paper.authors != "" %}
+                                <span class="submission-authors">{{ paper.authors }}</span>
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <p class="submissions-empty">Accepted papers will be listed here.</p>
+                        {% endif %}
+                    </div>
+
+                    <!-- Concurrent Submissions Tab -->
+                    <div role="tabpanel" class="tab-pane" id="tab-concurrent">
+                        {% if site.data.submissions.concurrent and site.data.submissions.concurrent.size > 0 %}
+                        <ul class="submissions-list">
+                            {% for paper in site.data.submissions.concurrent %}
+                            <li class="submission-item">
+                                <span class="submission-title">
+                                    {% if paper.pdf and paper.pdf != "" %}
+                                    <a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+                                    {% else %}
+                                    {{ paper.title }}
+                                    {% endif %}
+                                </span>
+                                {% if paper.authors and paper.authors != "" %}
+                                <span class="submission-authors">{{ paper.authors }}</span>
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <p class="submissions-empty">Accepted concurrent submissions will be listed here.</p>
+                        {% endif %}
+                    </div>
+
+                    <!-- Individuals Tab -->
+                    <div role="tabpanel" class="tab-pane" id="tab-individuals">
+                        {% if site.data.submissions.individuals and site.data.submissions.individuals.size > 0 %}
+                        <ul class="submissions-list">
+                            {% for person in site.data.submissions.individuals %}
+                            <li class="submission-item">
+                                <span class="submission-title">{{ person.name }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <p class="submissions-empty">Accepted participants will be listed here.</p>
+                        {% endif %}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+#submissions {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+#submissions .section-heading {
+    color: #a53860;
+    margin-bottom: 30px;
+}
+
+.submissions-tabs {
+    border-bottom: 2px solid #a53860;
+    margin-bottom: 0;
+}
+
+.submissions-tabs > li > a {
+    color: #555;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.submissions-tabs > li > a:hover {
+    color: #a53860;
+    background-color: #f9f0f3;
+    border-color: #e8c4cf #e8c4cf transparent;
+}
+
+.submissions-tabs > li.active > a,
+.submissions-tabs > li.active > a:focus,
+.submissions-tabs > li.active > a:hover {
+    color: #a53860;
+    background-color: #fff;
+    border: 1px solid #a53860;
+    border-bottom-color: #fff;
+}
+
+.submissions-tab-content {
+    border: 1px solid #a53860;
+    border-top: none;
+    padding: 24px 28px;
+    border-radius: 0 0 4px 4px;
+}
+
+.submissions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submission-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0e0e5;
+}
+
+.submission-item:last-child {
+    border-bottom: none;
+}
+
+.submission-title {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    font-size: 15px;
+}
+
+.submission-title a {
+    color: #a53860;
+    text-decoration: none;
+}
+
+.submission-title a:hover {
+    text-decoration: underline;
+}
+
+.submission-authors {
+    display: block;
+    color: #777;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.submissions-empty {
+    color: #777;
+    font-style: italic;
+    margin: 0;
+}
+</style>
