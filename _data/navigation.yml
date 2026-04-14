@@ -1,0 +1,307 @@
+# Navigation Links
+main:
+  - title: "Blog"
+    url: /
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Write-Ups"
+    url: /writeups/
+
+  - title: "Trainings"
+    url: /trainings/
+
+  - title: "Links"
+    url: /links/
+
+  - title: "About"
+    url: /about/
+
+  - title: "Disclaimer"
+    url: /disclaimer/
+
+# Navigation for DVWA
+dvwa:
+  - title: "Getting Started"
+    children:
+      - title: "Installation"
+        url: /writeups/dvwa/installation/
+      - title: "Notes"
+        url: /writeups/dvwa/notes/
+  
+  - title: "Brute Force"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/bruteforce-low/
+      - title: "Medium"
+        url: /writeups/dvwa/bruteforce-medium/
+      - title: "High"
+        url: /writeups/dvwa/bruteforce-high/
+  
+  - title: "Command Injection"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/command-injection-low/
+      - title: "Medium"
+        url: /writeups/dvwa/command-injection-medium/
+      - title: "High"
+        url: /writeups/dvwa/command-injection-high/
+  
+  - title: "CSRF"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/csrf-low/
+      - title: "Medium"
+        url: /writeups/dvwa/csrf-medium/
+      - title: "High"
+        url: /writeups/dvwa/csrf-high/
+  
+  - title: "File Inclusion"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/file-inclusion-low/
+      - title: "Medium"
+        url: /writeups/dvwa/file-inclusion-medium/
+      - title: "High"
+        url: /writeups/dvwa/file-inclusion-high/
+  
+  - title: "File Upload"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/file-upload-low/
+      - title: "Medium"
+        url: /writeups/dvwa/file-upload-medium/
+      - title: "High"
+        url: /writeups/dvwa/file-upload-high/
+  
+  - title: "Insecure CAPTCHA"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/insecure-captcha-low/
+      - title: "Medium"
+        url: /writeups/dvwa/insecure-captcha-medium/
+      - title: "High"
+        url: /writeups/dvwa/insecure-captcha-high/
+  
+  - title: "SQL Injection"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/sql-injection-low/
+      - title: "Medium"
+        url: /writeups/dvwa/sql-injection-medium/
+      - title: "High"
+        url: /writeups/dvwa/sql-injection-high/
+  
+  - title: "SQL Injection (Blind)"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/sql-injection-blind-low/
+      - title: "Medium"
+        url: /writeups/dvwa/sql-injection-blind-medium/
+      - title: "High"
+        url: /writeups/dvwa/sql-injection-blind-high/
+  
+  - title: "XSS (Reflected)"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/xss-reflected-low/
+      - title: "Medium"
+        url: /writeups/dvwa/xss-reflected-medium/
+      - title: "High"
+        url: /writeups/dvwa/xss-reflected-high/
+  
+  - title: "XSS (Stored)"
+    children:
+      - title: "Low"
+        url: /writeups/dvwa/xss-stored-low/
+      - title: "Medium"
+        url: /writeups/dvwa/xss-stored-medium/
+      - title: "High"
+        url: /writeups/dvwa/xss-stored-high/
+
+# Navigation for MBE
+mbe:
+  - title: "Getting Started"
+    children:
+      - title: "Installation"
+        url: /writeups/mbe/installation/
+      - title: "Notes"
+        url: /writeups/mbe/mbe_notes/
+
+  - title: "Reverse Engineering"
+    children:
+      - title: "Lab1C (easy)"
+        url: /writeups/mbe/lab1c/
+      - title: "Lab1B (medium)"
+        url: /writeups/mbe/lab1b/
+      - title: "Lab1A (hard)"
+        url: /writeups/mbe/lab1a/
+  
+  - title: "Memory Corruption"
+    children:
+      - title: "Lab2C (easy)"
+        url: /writeups/mbe/lab2c/
+      - title: "Lab2B (medium)"
+        url: /writeups/mbe/lab2b/
+      - title: "Lab2A (hard)"
+        url: /writeups/mbe/lab2a/
+  
+  - title: "Shellcoding"
+    children:
+      - title: "Lab3C (easy)"
+        url: /writeups/mbe/lab3c/
+      - title: "Lab3B (medium)"
+        url: /writeups/mbe/lab3b/
+      - title: "Lab3A (hard)"
+        url: /writeups/mbe/lab3a/
+  
+  - title: "Format Strings"
+    children:
+      - title: "Lab4C (easy)"
+        url: /writeups/mbe/lab4c/
+      - title: "Lab4B (medium)"
+        url: /writeups/mbe/lab4b/
+      - title: "Lab4A (hard)"
+        url: /writeups/mbe/lab4a/
+  
+  - title: "DEP and ROP"
+    children:
+      - title: "Lab5C (easy)"
+        url: /writeups/mbe/lab5c/
+      - title: "Lab5B (medium)"
+        url: /writeups/mbe/lab5b/
+      - title: "Lab5A (hard)"
+        url: /writeups/mbe/lab5a/
+  
+  - title: "ASLR"
+    children:
+      - title: "Lab6C (easy)"
+        url: /writeups/mbe/lab6c/
+  #   - title: "Lab6B (medium)"
+  #     url: /writeups/mbe/lab6b/
+  #   - title: "Lab6A (hard)"
+  #     url: /writeups/mbe/lab6a/
+
+  #- title: "Heap"
+  # children:
+  #   - title: "Lab7C (easy)"
+  #     url: /writeups/mbe/lab7c/
+  #   - title: "Lab7A (hard)"
+  #     url: /writeups/mbe/lab7a/
+
+  #- title: "Misc and Stack Cookies"
+  # children:
+  #   - title: "Lab8C (easy)"
+  #     url: /writeups/mbe/lab8c/
+  #   - title: "Lab8B (medium)"
+  #     url: /writeups/mbe/lab8b/
+  #   - title: "Lab8A (hard)"
+  #     url: /writeups/mbe/lab8a/
+
+  #- title: "C++"
+  # children:
+  #   - title: "Lab9C (easy)"
+  #     url: /writeups/mbe/lab9c/
+  #   - title: "Lab9A (hard)"
+  #     url: /writeups/mbe/lab9a/
+
+  #- title: "Linux Kernel"
+  #  children:
+  #    - title: "Lab10C (easy)"
+  #      url: /writeups/mbe/lab10c/
+  #    - title: "Lab10A (hard)"
+  #      url: /writeups/mbe/lab10a/
+  
+  #- title: "Project 1"
+  #  children:
+  #    - title: "Analysis"
+  #      url: /writeups/mbe/project1/
+  #    - title: "Solution"
+  #      url: /writeups/mbe/p1_notes/
+  
+  #- title: "Project 2"
+  #  children:
+  #    - title: "Analysis"
+  #      url: /writeups/mbe/project2/
+  #    - title: "Solution"
+  #      url: /writeups/mbe/p2_notes/
+
+# Navigation for OTW
+otw:
+  - title: "OverTheWire"
+    children:
+      - title: "Summary"
+        url: /writeups/otw/otw_wargames/
+
+  - title: "Wargames"
+    children:
+      - title: "Bandit"
+        url: /writeups/otw/bandit/
+      - title: "Leviathan"
+        url: /writeups/otw/leviathan/
+      - title: "Krypton"
+        url: /writeups/otw/krypton/
+      - title: "Natas"
+        url: /writeups/otw/natas/
+      - title: "Narnia"
+        url: /writeups/otw/narnia/
+      - title: "Behemoth"
+        url: /writeups/otw/behemoth/
+      - title: "Utumno"
+        url: /writeups/otw/utumno/
+      # - title: "Maze"
+      #   url: /writeups/otw/maze/
+      # - title: "Vortex"
+      #   url: /writeups/otw/vortex/
+      # - title: "Semtex"
+      #   url: /writeups/otw/semtex/
+      # - title: "Manpage"
+      #   url: /writeups/otw/manpage/
+      # - title: "Drifter"
+      #   url: /writeups/otw/drifter/
+
+# Navigation for HTB
+htb:
+  - title: "Hack The Box"
+    children:
+      - title: "Summary"
+        url: /writeups/htb/htb_writeups/
+
+  - title: "Active Directory Machines"
+    children:
+      - title: "Forest (Easy)"
+        url: /writeups/htb/forest/
+      - title: "Sauna (Easy)"
+        url: /writeups/htb/sauna/
+      - title: "Active (Easy)"
+        url: /writeups/htb/active/
+      - title: "Resolute (Medium)"
+        url: /writeups/htb/resolute/
+      - title: "Cascade (Medium)"
+        url: /writeups/htb/cascade/
+      - title: "Intelligence (Medium)"
+        url: /writeups/htb/intelligence/
+      - title: "Monteverde (Medium)"
+        url: /writeups/htb/monteverde/
+      - title: "StreamIO (Medium)"
+        url: /writeups/htb/streamio/
+      - title: "Backfield (Hard)"
+        url: /writeups/htb/blackfield/
+      - title: "Reel (Hard)"
+        url: /writeups/htb/reel/
+      - title: "Mantis (Hard)"
+        url: /writeups/htb/mantis/
+      - title: "Search (Hard)"
+        url: /writeups/htb/search/
+      - title: "Acute (Hard)"
+        url: /writeups/htb/acute/
+      - title: "Object (Hard)"
+        url: /writeups/htb/object/  
+      - title: "Sizzle (Insane)"
+        url: /writeups/htb/sizzle/
+      - title: "Multimaster (Insane)"
+        url: /writeups/htb/multimaster/
+
+      
+
