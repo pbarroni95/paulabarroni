@@ -2,10 +2,15 @@ url: https://pbarroni95.github.io
 baseurl: /paulabarroni/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Paula Barroni | BI Data Analyst"
+email: "pbarroni95@gmail.com"
+description: "Senior Data Analyst with 8+ years of experience in Commercial & Digital Intelligence."
+url: "https://pbarroni95.github.io"
+baseurl: "/paulabarroni"
 
+# Social Media [cite: 4]
+linkedin_username: paula-barroni
+github_username: pbarroni95
 
 # Team names, titles and social links
 people:
