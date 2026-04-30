@@ -269,13 +269,17 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    /* Ruta correcta con el nombre de tu archivo */
+    background-image: url('{{ site.baseurl }}/img/background-data.png');
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat; /* Aseguramos que sea válido */
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    
+    /* El overlay oscuro para que el texto resalte */
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
 }
 
 header .intro-text {
