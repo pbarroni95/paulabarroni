@@ -270,7 +270,8 @@ header {
     color: #fff;
     background-attachment: scroll;
     /* Ruta correcta con el nombre de tu archivo */
-    background-image: url('{{ site.baseurl }}/img/background-data.png');
+  
+    background-image: url('/img/background-data.png');
     background-position: center center;
     background-repeat: no-repeat; /* Aseguramos que sea válido */
     background-size: cover;
